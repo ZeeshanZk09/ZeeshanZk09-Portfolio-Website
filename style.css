@@ -1,0 +1,46 @@
+
+.hero {
+    background: url("./M-Zeeshan-Khan-heroimg.png");
+    background-size: cover;
+    opacity: 0.7;
+    block-size: 500px;
+    background-color:black;
+  }
+
+  .text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+    padding-block-start: 50px;
+
+  }
+  nav .alert{
+    text-align: center;
+    padding-inline-start: 300px; 
+    font-size: 30px; 
+    padding-block-start: 10px;
+  }
+  .hero h1 {
+    font-family:fantasy;
+    font-size: 3rem;
+    color:  black;
+    padding-block-start: 70px;
+    padding-inline-end: 500px;
+    z-index: 1;
+    transform: skewX(15deg);
+  }
+  .hero p {
+    font-size: 1.3rem;
+    color: rgba(252, 252, 252, 0.669);
+    padding-inline-end: 250px;
+    padding-block-end: 70px;
+  }
+  .separation {
+block-size: 0.438rem;
+background-color: rgb(0, 0, 0);
+}
+  .project img {
+    inline-size: 100%;
+  }
